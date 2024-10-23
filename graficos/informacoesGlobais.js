@@ -6,7 +6,7 @@ async function visualizarInformacoesGlobais() {
 
     const dados = await res.json()
 
-    //inicio aula 07
+
     const pessoasConectadas = (dados.total_pessoas_conectadas / 1e9)
     const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
     const horas = parseInt(dados.tempo_medio)
@@ -26,6 +26,4 @@ async function visualizarInformacoesGlobais() {
     // fim aula 05 exibindo os dados iniciais
 }
 
-visualizarInformacoesGlobais()
-
-/*Aula 04 */
+vizualizarInformacoesGlobais()
